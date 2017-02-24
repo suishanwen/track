@@ -1,0 +1,26 @@
+<html ng-app="trackApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Track</title>
+	<link rel="shortcut icon" href="http://42.96.207.122/assets/favicon.ico"/>
+    <link rel="stylesheet" href="track.css">
+</head>
+
+<body ng-controller="trackController">
+    <div id="main">
+        <div id="state" class="state">
+        </div>
+        <div class="container">
+            <div id="records" class="records">
+            </div>
+            <div id="dispaly" class="display">
+                <span ng-repeat="url in display" class="url"><a href="{{url}}" target="_blank">{{url}}</a><br/></span>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="assets/js/angular.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="track-controller.js"></script>
+</html>

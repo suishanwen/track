@@ -1,0 +1,60 @@
+a{
+    text-decoration: none;
+}
+
+.id{
+    border-radius: 2px;
+    color:white
+}
+
+.bg-red{
+    background: red;
+}
+
+.bg-yg{
+    background: yellowgreen;
+}
+
+.bg-blue{
+    background: blue;
+}
+
+.bg-gray{
+    background: darkgray;
+}
+
+
+
+.img{
+    width: 20px;
+    height: 20px;
+}
+
+.state{
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+    margin-top: 66px;
+}
+
+.records{
+    display: inline-block;
+    width:55%;
+    height: 580px;
+    overflow-y: auto;
+    border-right: 1px dashed darkgray;
+}
+.display{
+    margin-left: 20px;
+    display: inline-block;
+    height: 580px;
+    overflow-y: auto;
+}
+
+.url{
+    margin-top: 10px;
+    display: block;
+}
